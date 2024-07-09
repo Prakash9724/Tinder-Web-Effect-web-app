@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title></title>
+
+    <style>
+        .detailscontainer{
+            background: linear-gradient(to bottom, transparent,rgba(0, 0, 0, 0.895));
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="w-full h-screen bg-black font-['Gilroy-Black]' font-bold">
+        <div class="imagecontainer w-full h-screen relative overflow-hidden">
+            <div class="maincard z-[3] w-[130%] absolute top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2 h-[130%] ">
+                <img class="h-full w-full object-cover" src="" alt="">
+            </div>
+            <div class="incomingcard z-[2] w-[130%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[130%]">
+                <img class="h-full w-full object-cover" src="" alt="">
+            </div>
+        </div>
+
+        <div class="w-full h-screen top-0 left-0 absolute z-[4] flex flex-col justify-between">
+            <div class="navbar px-5 py-6  flex justify-between items-center text-white">
+                <div class=" profileimage h-10 w-10  rounded-full overflow-hidden">
+                    <img class="h-full w-full object-cover" src="" alt="">
+                </div>
+                <h3 class="capitalize text-xl font-medium tracking-tighter">They liked you</h3>
+                <div class="chaticon relative flex items-center justify-center h-10 w-10 bg-white/20 rounded-full ">
+
+                <i class="ri-chat-1-fill"></i>
+                <div class="badge flex items-center justify-center rounded-full absolute top-0 right-0 -translate-y-[6px] -translate-x-[1px] w-4 h-4 bg-[#FC5149] ">
+                    <h5 class="text-[10px] font-regular">5</h5>
+                </div>
+                
+                </div>
+
+            </div>
+
+            <div class="details p-3 w-full  ">
+                <div class=" elem location details w-full px-5 py-6">
+                    <div class="flex gap-4 ">
+                        <i class=" w-[1.5rem] h-[1.5rem] bg-white rounded-full flex justify-center items-center ri-corner-right-up-fill"></i>
+                        <h3 class="text-white">USA , California</h3>
+                    </div>
+                    <div class="elem name flex gap-6 text-white mt-1">
+                        <h1 class="text-white tracking-harder font-regular text-7xl">Victoria</h1>
+                        <h1 class="opacity-60 text-white text-7xl">20</h1>
+                    </div>
+                    <div class="elem tags flex gap-3 font-semibold text-white">
+                        <div class="flex justify-center items-center gap-2 bg-white/40 px-3 py-1 rounded-full mt-3" >
+                            <i class="text-sm ri-music-2-fill"></i>
+                            <h3 class=" tracking-tight text-sm">Music</h3>
+                        </div>
+    
+                        <!-- <div class="flex justify-center items-center gap-2 bg-white/40 px-3 py-1 rounded-full mt-3" >
+                            <i class="text-sm ri-music-2-fill"></i>
+                            <h3 class=" tracking-tight text-sm">Music</h3>
+                        </div>
+    
+                        <div class="flex justify-center items-center gap-2 bg-white/40 px-3 py-1 rounded-full mt-3" >
+                            <i class="text-sm ri-music-2-fill"></i>
+                            <h3 class=" tracking-tight text-sm">Music</h3>
+                        </div> -->
+    
+    
+                    </div>
+    
+                    <div class="elem bio text-white/80 mt-5">
+                        <h3 class="text-xl">Bio</h3>
+                        <p class="text-lgleading-tight mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur possimus sed provident voluptates facilis veritatis suscipit ab. Molestiae necessitatibus saepe asperiores iste reprehenderit temporibus eveniet atque</p>
+                    </div>
+    
+                    <div class="elem flex items-start mt-10 gap-2 ">
+                        <button class="deny py-2 w-1/2 bg-white rounded-xl">
+                            <i class="text-2xl ri-close-line"></i>
+                        </button>
+                        <button class="accept text-white py-2 w-1/2 bg-[#FC5149] rounded-xl">
+                            <i class="text-2xl ri-heart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div> 
+
+    </div>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
