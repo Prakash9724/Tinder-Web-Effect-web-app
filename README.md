@@ -13,7 +13,7 @@ The app allows users to view profiles, see their details, and swipe left or righ
 
 ## Screenshots
 
-![Profile View]([https://your-screenshot-url.com/profile-view.png](https://github.com/Prakash9724/Tinder-Web-Effect-web-app/blob/main/Screenshot%202024-07-09%20193547.png))
+![Profile View](Screenshot 2024-07-09 193547.png)
 
 
 ## Technologies Used
