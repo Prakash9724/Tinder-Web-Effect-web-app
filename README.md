@@ -11,6 +11,10 @@ The app allows users to view profiles, see their details, and swipe left or righ
 - Swipe left to deny and swipe right to accept profiles.
 - Smooth animations using GSAP library.
 
+## WebApp Link
+
+- You can visit this WebApp with this link : https://prakash9724.github.io/Tinder-Web-Effect-web-app/
+
 ## Screenshots
 
 ![Profile View]([Screenshot 2024-07-09 193547.png](https://github.com/Prakash9724/Tinder-Web-Effect-web-app/blob/main/Screenshot%202024-07-09%20193547.png))
